@@ -1,9 +1,4 @@
-# rongcloud-chat
-
-## 下载本地立即启动
-
-npm install
-npm run serve
-
-
+# 下载本地立即启动
+###  $ cd rongcloud-chat
+###  $ npm run serve
 
