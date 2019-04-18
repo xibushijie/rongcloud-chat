@@ -4,4 +4,4 @@
 ###  $ cd rongcloud-chat
 ###  $ npm run install
 ###  $ npm run serve
-![image](https://note.youdao.com/favicon.ico)
+![image](//fanyi.bdstatic.com/static/translation/img/header/logo_40c4f13.svg)
