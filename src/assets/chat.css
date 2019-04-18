@@ -1,0 +1,147 @@
+/* header */
+.header {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 4px 4px 0px 0px;
+    padding-left: 20px;
+    background: url(./customerservice-web-bg.png) 0 0/10px auto repeat;
+    text-align: center;
+}
+
+/* chat */
+.chat-content {
+    width: 100%;
+    overflow-y: scroll;
+    height: 500px;
+    border: 1px solid #CDD7DB;
+}
+
+.chat-content .message-wrapper {
+    padding: 0 0.5rem;
+}
+
+.message-item:nth-child(n+1) {
+    margin-top: 10px;
+}
+
+.message-item:last-child {
+    margin-bottom: 10px;
+}
+
+.message-text {
+    display: flex;
+    font-size: 12px;
+}
+
+.my-msg .message-text {
+    flex-direction: row-reverse;
+}
+
+.you-msg .message-text {
+    padding-left: 1.39rem;
+}
+
+.message-text .rong-avatar {
+    flex-shrink: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.message-text .rong-avatar img {
+    width: 100%;
+}
+
+.message-text .message-body {
+    position: relative;
+    color: #353535;
+    padding: 7px;
+    max-width: 100%;
+    min-height: 24px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.message-text .message-body pre {
+    white-space: normal;
+    font-family: "Microsoft yahei";
+}
+
+.my-msg .message-text .message-body {
+    margin-right: 10px;
+    background: #b2e281;
+}
+
+.my-msg .message-text .message-body:after {
+    position: absolute;
+    top: 8px;
+    right: -14px;
+    border: 5px solid transparent;
+    content: " ";
+    border-left-color: #b2e281;
+    border-left-width: 10px;
+}
+
+.your-msg .message-text .message-body {
+    margin-left: 0.25rem;
+    background: #fff;
+}
+
+.your-msg .message-text .message-body:before {
+    position: absolute;
+    top: 0.32rem;
+    left: -0.3rem;
+    border: 0.2rem solid transparent;
+    content: " ";
+    border-right-color: #fff;
+    border-right-width: 0.15rem;
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    height: 114px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #CDD7DB;
+    border-top: 0;
+}
+
+.footer .message-wrap {
+    flex: 1;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.footer .message-content {
+    height: 80px;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    font-family: "Microsoft yahei";
+}
+
+.footer .send-btn {
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 40px;
+    font-size: 9pt;
+    color: #fff;
+    background: #0099ff;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 50px;
+}
