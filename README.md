@@ -1,11 +1,7 @@
 # rongcloud-chat
 
-## Project setup
-```
+## 下载本地立即启动
 npm install
-```
-
-### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
